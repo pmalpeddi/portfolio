@@ -181,7 +181,7 @@ import {
     {
       name: "K9 Boxing Website (New)",
       description:
-      "An upgraded version of the K9 Boxing website, built using React for a dynamic and responsive user experience. This version incorporates SCSS for modular and maintainable styling, along with various imported libraries for enhanced functionality. CSS loaders improve performance and optimize styles, while JavaScript powers interactive components and smooth animations.",
+      "An upgraded version of the K9 Boxing website, built using React for a dynamic and responsive user experience. This version incorporates SCSS for modular and maintainable styling, along with various imported libraries for enhanced functionality. CSS loaders improve performance and optimize styles, while JavaScript powers interactive components and smooth animations. (Not Yet Deployed for Public Use)",
       tags: [
         {
           name: "JavaScript",
