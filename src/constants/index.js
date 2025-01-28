@@ -201,7 +201,7 @@ import {
         },
         {
           name: "GSAP",
-          color: "Green-text-gradient",
+          color: "bg-gradient-to-r from-green-400 via-green-500 to-green-600 h-64 w-full",
         },
       ],
       image: ReactK9,
