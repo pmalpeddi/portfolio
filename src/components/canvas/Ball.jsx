@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useEffect, useRef } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
   Decal,
@@ -13,6 +13,21 @@ import CanvasLoader from "../Loader";
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
 
+  const meshRef = useRef();
+
+  useEffect(() => {
+    return () => {
+      // Dispose of the texture when the component is unmounted
+      if (decal) decal.dispose();
+
+      // Dispose of the mesh's geometry and material
+      if (meshRef.current) {
+        meshRef.current.geometry.dispose();
+        meshRef.current.material.dispose();
+      }
+    };
+  }, [decal]);
+  
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
       <ambientLight intensity={0.25} />
