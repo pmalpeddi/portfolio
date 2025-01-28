@@ -199,8 +199,13 @@ import {
           name: "scss",
           color: "pink-text-gradient",
         },
+        {
+          name: "GSAP",
+          color: "Green-text-gradient",
+        },
       ],
       image: ReactK9,
+      source_code_link: "https://reactk9.netlify.app/",
     },
     {
       name: "3D Project Portfolio",
