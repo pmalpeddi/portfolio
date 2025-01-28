@@ -185,7 +185,7 @@ import {
     {
       name: "K9 Boxing Website (New)",
       description:
-      "An upgraded version of the K9 Boxing website, built using React for a dynamic and responsive user experience. This version incorporates SCSS for modular and maintainable styling, along with various imported libraries for enhanced functionality. CSS loaders improve performance and optimize styles, while JavaScript powers interactive components and smooth animations.",
+      "An upgraded version of the K9 Boxing website, built using React for a dynamic and responsive user experience. This version incorporates SCSS for modular and maintainable styling, along with various imported libraries for enhanced functionality. CSS loaders improve performance and optimize styles, while JavaScript powers interactive components and smooth animations. (Not Yet Deployed for Public use but Netlify Testing Version Link Availabale)",
       tags: [
         {
           name: "JavaScript",
@@ -210,7 +210,7 @@ import {
     {
       name: "3D Project Portfolio",
       description:
-        "A modern and interactive 3D portfolio showcasing my projects, built using Vite and React for fast performance and modular development. This project leverages JavaScript for dynamic functionality, Tailwind CSS for responsive and efficient styling, and CSS for additional customizations. The portfolio integrates 3D elements to create an engaging user experience. (Not Yet Deployed for Public use but Netlify Testing Version Link Availabale)",
+        "A modern and interactive 3D portfolio showcasing my projects, built using Vite and React for fast performance and modular development. This project leverages JavaScript for dynamic functionality, Tailwind CSS for responsive and efficient styling, and CSS for additional customizations. The portfolio integrates 3D elements to create an engaging user experience.",
       tags: [
         {
           name: "Vite",
