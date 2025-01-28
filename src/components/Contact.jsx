@@ -32,16 +32,36 @@ const Contact = () => {
     setLoading(true);
 
     emailjs
-      .send('service_i4opbb5', 'template_134a14l', form.current, 'KqVI2_PzH-AZ0r6Vg')
-      .then(
-        () => {
-          alert('Message successfully sent!')
-          window.location.reload(false)
-        },
-        () => {
-          alert('Failed to send the message, please try again')
-        }
-      )
+    .send(
+      'service_i4opbb5', 
+      'template_134a14l', 
+      {
+        from_name: form.name,
+        to_name: "Portfolio Website",
+        from_email: form.email,
+        to_email: "pmalpeddi123@gmail.com",
+        message: form.message,
+      },
+      'KqVI2_PzH-AZ0r6Vg'
+    )
+    .then(
+      () => {
+        setLoading(false);
+        alert("Thank you. I will get back to you as soon as possible.");
+
+        setForm({
+          name: "",
+          email: "",
+          message: "",
+        });
+      },
+      (error) => {
+        setLoading(false);
+        console.log(error);
+
+        alert("Ahh, something went wrong. Please try again.");
+      }
+    );
   }
 
   return (
@@ -114,4 +134,3 @@ const Contact = () => {
 };
 
 export default SectionWrapper(Contact, "contact");
-
