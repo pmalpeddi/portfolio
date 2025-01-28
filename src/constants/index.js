@@ -137,7 +137,7 @@ import {
       ],
     },
     {
-      title: "Amateure Boxer",
+      title: "Amateur Boxer",
       company_name: "Team K9",
       icon: TeamK9,
       iconBg: "#383E56",
