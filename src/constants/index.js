@@ -134,10 +134,13 @@ import {
       iconBg: "#E6DEDD",
       date: "September 2023 - January 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Provide comprehensive support for Healthmark's information systems, resolving software and hardware issues reported to the IT help desk.",
+        "Manage databases, manipulate data files in various formats and systems, and write/run SQL scripts for efficient database querying and reporting.",
+        "Assist office staff in utilizing Microsoft Office and Windows software applications, ensuring smooth operation of IT processes.",
+        "Document IT processes and maintain interdepartmental coordination and communications through the IT ticket system, Zendesk.",
+        "Contribute to data analysis and reporting efforts, fulfilling user or interdepartmental requests, including new development.",
+        "Effectively manage priorities and workload through clear communication with management and Zendesk.",
+        "Modified production reporting system following the company’s change management processes.",  
       ],
     },
     {
