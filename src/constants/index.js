@@ -278,6 +278,10 @@ import {
           color: "bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent",
         },
         {
+          name: "Expo",
+          color: "bg-gradient-to-r from-green-500 to-teal-500 bg-clip-text text-transparent",
+        },
+        {
           name: "Tailwind CSS",
           color: "bg-gradient-to-r from-blue-800 to-blue-300 bg-clip-text text-transparent",
         },
