@@ -295,7 +295,7 @@ import {
         }
       ],
       image: Build,
-      source_code_link: "github.com",
+      source_code_link: "https://github.com/HelloMrAntelope/todoList",
   }
   ];
   
