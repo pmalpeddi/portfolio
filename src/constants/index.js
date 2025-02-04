@@ -24,7 +24,7 @@ import {
   import FL from "../assets/tech/FL.png"
   import Android from "../assets/tech/Android.png"
   import Ableton from "../assets/tech/Ableton.png"
-  import NA from "../assets/NA.png"
+  import Build from "../assets/Build.png"
   export const navLinks = [
     {
       id: "about",
@@ -294,7 +294,7 @@ import {
           color: "bg-gradient-to-r from-gray-700 to-blue-500 bg-clip-text text-transparent",
         }
       ],
-      image: NA,
+      image: Build,
       source_code_link: "github.com",
   }
   ];
