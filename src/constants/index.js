@@ -10,6 +10,7 @@ import {
     tailwind,
     threejs,
   } from "../assets";
+  import Puzzle from "../assets/puzzle.png"
   import Github from "../assets/tech/Github.png"
   import MySQL from "../assets/tech/MySQL.png"
   import BetaK9 from "../assets/BetaK9.png"
@@ -241,6 +242,27 @@ import {
       ],
       image: Portfolio,
       source_code_link: "https://vanarpmalportfolio.netlify.app/",
+    },
+    {
+    name: "Sliding Picture Puzzle",
+    description:
+      "Just a simple game I created a while ago in my web development class.",
+    tags: [
+      {
+        name: "HTML",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent",
+      },
+    ],
+    image: Puzzle,
+    source_code_link: "https://pranav-malpeddi-project2.netlify.app/",
     },
     {
     name: "To-Do Application",
