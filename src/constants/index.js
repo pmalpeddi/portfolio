@@ -20,7 +20,6 @@ import {
   import FirstIgnite from "../assets/company/FirstIgnite.png";
   import Healthmark from "../assets/company/Healthmark.png";
   import TeamK9 from "../assets/company/TeamK9OfficialLogo.png";
-  import Puzzle from "../assets/puzzle.png";
   import FL from "../assets/tech/FL.png"
   import Android from "../assets/tech/Android.png"
   import Ableton from "../assets/tech/Ableton.png"
