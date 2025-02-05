@@ -244,27 +244,6 @@ import {
       source_code_link: "https://vanarpmalportfolio.netlify.app/",
     },
     {
-      name: "Sliding Picture Puzzle",
-      description:
-        "Just a simple game I created a while ago in my web development class.",
-      tags: [
-        {
-          name: "HTML",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent",
-        },
-      ],
-      image: Puzzle,
-      source_code_link: "https://pranav-malpeddi-project2.netlify.app/",
-    },
-    {
     name: "To-Do Application",
     description:
       "Just started working on a new To-Do application using React Native as of 2/1/2025 to showcase my adaptability and proficiency with JavaScript and React. Upon completion, I plan to deploy the application on the Google Play Store and Microsoft Store.",
