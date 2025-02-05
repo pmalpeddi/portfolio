@@ -259,18 +259,6 @@ import {
           name: "Expo",
           color: "bg-gradient-to-r from-green-500 to-teal-500 bg-clip-text text-transparent",
         },
-        {
-          name: "Tailwind CSS",
-          color: "bg-gradient-to-r from-blue-800 to-blue-300 bg-clip-text text-transparent",
-        },
-        {
-          name: "Google Play Store",
-          color: "bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-transparent",
-        },
-        {
-          name: "Microsoft Store",
-          color: "bg-gradient-to-r from-gray-700 to-blue-500 bg-clip-text text-transparent",
-        }
       ],
       image: Build,
       source_code_link: "https://github.com/HelloMrAntelope/todoList",
