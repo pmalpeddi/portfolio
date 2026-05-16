@@ -2,7 +2,7 @@
 
 A modern, interactive 3D portfolio built with Vite and React, featuring animated Three.js elements, a working contact form, and sections for experience, skills, and projects.
 
-**Live Site:** [vanarpmalportfolio.netlify.app](https://vanarpmalportfolio.netlify.app)
+**Live Site:** [ogpranavportfolio.netlify.app](https://ogpranavportfolio.netlify.app/)
 
 ---
 
